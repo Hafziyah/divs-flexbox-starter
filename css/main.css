@@ -118,15 +118,34 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
+  line-height: 1em;
+  font-size: 1em;
   background-color: #f16059;
-  height: 300px;
+  height: 350px;
   width:30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction:column;
+  font-family:'Architects Daughter', cursive;
+  border: 5px dashed black;
 }
+
+.div-1{
+    background:#B2D732;
+    color:#110934;
+}
+
+.div-2{
+    color:#B2D732;
+}
+
+.div-3{
+    background:#4424D6;
+    color:#F0F7D4;
+}
+
+
 
 
 
